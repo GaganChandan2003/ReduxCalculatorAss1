@@ -2,7 +2,7 @@ import { legacy_createStore } from "redux";
 import { reducer } from "./reducer";
 export const initialstate=
 {
-    count:0,
+    count:1,
 }
 
 

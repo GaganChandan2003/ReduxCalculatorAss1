@@ -2,12 +2,12 @@ export const reducer=(state,action)=>
 {
    switch(action.type)
    {
-       case "add":
+       case "INC":
            {
                state.count++;
                return {...state}
            }
-       case "sub":
+       case "DEC":
           {
                state.count--;
                return {...state}
